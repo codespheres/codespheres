@@ -3,11 +3,12 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://codespheres.github.io/codespheres/",
+  "homepage": "https://codespheres.com/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "build:dev": "vite build --mode development",
+    "build:deploy": "vite build && cp -r dist/* .",
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
