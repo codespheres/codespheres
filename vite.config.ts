@@ -4,8 +4,8 @@ import path from "path";
 import { componentTagger } from "lovable-tagger";
 
 export default defineConfig(({ mode }) => ({
-  // Relative URLs so it works on codespheres.com
-  base: "./",
+  // Root path for custom domain codespheres.com
+  base: "/",
   // 👇 Build directly into a /docs folder
   build: {
     outDir: "docs"
