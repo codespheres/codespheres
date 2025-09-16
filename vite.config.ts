@@ -6,9 +6,9 @@ import { componentTagger } from "lovable-tagger";
 export default defineConfig(({ mode }) => ({
   // Root path for custom domain codespheres.com
   base: "/",
-  // 👇 Build directly into a /docs folder
+  // 👇 Build to dist folder for GitHub Pages main branch root deployment
   build: {
-    outDir: "docs"
+    outDir: "dist"
   },
   server: {
     host: "::",
